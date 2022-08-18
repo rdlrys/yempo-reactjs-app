@@ -7,9 +7,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Assumptions
 
 npm installed
+
 running AWS Lambda function fetchLastNames. If not, this app will use hardcoded list of last names.
 
 ## How to run
+
+Create .env file which contains the AWS Lambda function API (key - REACT_APP_API).
 
 In the project directory, you can run:
 
