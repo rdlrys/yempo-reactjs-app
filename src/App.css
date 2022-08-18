@@ -1,0 +1,141 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.root{
+    height: 100vh;
+}
+
+.app-main {
+    margin: auto;
+    height: 520px;
+    width: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.left-nav {
+    height: 500px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    background-color: skyblue;
+}
+
+.nav-item {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    padding: 12px;
+    font-family: sans-serif;
+    border-radius: 12px;
+    font-size: 14px;
+    background-color: rgb(163, 228, 255);
+}
+
+.base-panel {
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 0, 0);
+}
+
+.component-one {
+    margin: auto;
+    padding: 5px;
+    justify-content: center;
+    height: 330px;
+    width: 400px;
+    display: block;
+    background-color: red;
+    border-radius: 12px;
+}
+
+.component-two {
+    margin: auto;
+    padding: 5px;
+    justify-content: center;
+    height: 270px;
+    width: 360px;
+    display: block;
+    background-color: rgb(255, 75, 75);
+    border-radius: 12px;
+}
+
+.component-three {
+    margin: auto;
+    padding: 5px;
+    justify-content: center;
+    height: 210px;
+    width: 320px;
+    display: block;
+    background-color: rgb(255, 120, 120);
+    border-radius: 12px;
+}
+
+.component-four {
+    margin: auto;
+    padding: 5px;
+    justify-content: center;
+    height: 150px;
+    width: 280px;
+    display: block;
+    background-color: rgb(255, 150, 150);
+    border-radius: 12px;
+}
+
+.component-text {
+    margin: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.result {
+    margin-left: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-panel {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 432px;
+    column-span: all;
+}
+
+.button-inactive {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;   
+    margin: 4px 12px;
+    border-radius: 12px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.button-active {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;   
+    margin: 4px 12px;
+    border-radius: 12px;
+    width: 120px;
+    cursor: pointer;
+    outline: 2px solid rgb(255, 126, 126);
+}
