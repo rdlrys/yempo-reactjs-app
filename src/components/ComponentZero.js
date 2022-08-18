@@ -48,7 +48,7 @@ const ComponentZero = ({setLastNames}) => {
     }, []);
     
     const getLastNames = () => {
-      fetch("https://bsmesxk7pj.execute-api.ap-southeast-1.amazonaws.com/dev/lastNames")
+      fetch(process.env.REACT_APP_API)
         .then((res) => res.json())
         .then(
           (result) => {
